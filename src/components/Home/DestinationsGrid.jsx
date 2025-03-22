@@ -18,7 +18,10 @@ const getImagePath = (destinationName) => {
   const imageMap = {
     'paris': '/france.jpg',
     'new york': '/newYork.jpg',
-    'seoul': '/seoul.jpeg'
+    'seoul': '/seoul.jpeg',
+    'australia':'/Australia.jpg',
+    'london':'/London.jpg',
+    'switzeland':'/Swiss.jpg'
   };
   return imageMap[destinationName.toLowerCase()] || '/default.jpg';
 };

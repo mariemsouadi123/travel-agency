@@ -11,7 +11,7 @@ const HeroSection = () => {
 
   return (
     <Box sx={{
-      backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/travel-bg.jpg")',
+      backgroundImage: 'url("/Travel1.webp")',
       minHeight: '100vh',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
@@ -30,7 +30,7 @@ const HeroSection = () => {
         left: 0,
         right: 0,
         bottom: 0,
-        background: 'linear-gradient(45deg, #2d3436aa, #0984e3aa)',
+        // background: 'linear-gradient(45deg, #2d3436aa, #0984e3aa)',
         zIndex: 1
       }
     }}>
